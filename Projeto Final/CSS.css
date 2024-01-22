@@ -1,0 +1,116 @@
+/*Reset document */
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, header, span, ul, li, a{
+    box-sizing: border-box;
+}
+
+/* Configurações */
+
+header {
+    width: 100%;
+    height: 0.4%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    align-items:se;
+
+}
+
+#menu li{
+    list-style: none;
+    display:inline-block;
+    margin:1rem;
+}
+
+#menu li a {
+    color:black;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius:3px;
+    text-shadow: 3px 3px 5px grey;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 2.5rem;
+    align-items: center;
+    background-color: white;
+}
+
+#menu li:hover{
+    color:black;
+    background-color: white;
+}
+
+#logo{ 
+    max-height: 8rem;
+}
+
+section{
+    width:100%;
+    height: 100vh;
+}
+
+#início{
+    background-image: url(images/Design\ sem\ nome\ \(5\).png);
+    background-attachment: fixed;
+}
+
+#sneakers{
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+   
+}
+
+#contactos{
+    background-color: white;
+}
+/*Sneakers*/
+#cards{
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+
+.card_sneakers{
+    background-color: #54428E;
+    color:white;
+    margin: 1.1em 1em;
+    transition:0.3s;
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+.card_conteiner{
+    padding: 1em 1.2em;
+}
+
+.card_sneakers img{
+    border-radius: 5px 5px 0px 0px;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: 30%;
+        
+}
+
+.card_conteiner:hover{
+    scale:1.02;
+    rotate: 2deg;  
+}
